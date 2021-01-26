@@ -27,4 +27,11 @@ public class BalancedBracketsTest {
     public void evenNumberOfBrackets() {
         assert(BalancedBrackets.numberOfBrackets("[[]]]]") % 2 == 0);
     }
+
+    @Test
+    public void numberOfOpenBrackets() {
+        assert(BalancedBrackets.numberOfOpenBrackets("[[[[]]]]]]") == 4);
+    }
+
+
 }
