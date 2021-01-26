@@ -32,4 +32,14 @@ public class BalancedBrackets {
         }
         return brackets == 0;
     }
+
+    public static int numberOfBrackets(String str) {
+        int bracketCount = 0;
+        for (char ch : str.toCharArray()) {
+            if (ch == '[' || ch == ']') {
+                bracketCount++;
+            }
+        }
+        return bracketCount;
+    }
 }
