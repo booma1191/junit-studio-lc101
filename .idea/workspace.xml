@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BalancedBrackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" afterDir="false" />
     </list>
@@ -133,7 +132,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611625229359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="evenNumberOfBrackets test implemented">
+      <created>1611625932414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611625932414</updated>
+    </task>
+    <task id="LOCAL-00003" summary="numberOfOpenBrackets test implemented">
+      <created>1611626118703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611626118703</updated>
+    </task>
+    <task id="LOCAL-00004" summary="numberOfCloseBrackets test implemented">
+      <created>1611626227741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611626227741</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +169,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="numberOfBrackets test implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="numberOfBrackets test implemented" />
+    <MESSAGE value="evenNumberOfBrackets test implemented" />
+    <MESSAGE value="numberOfOpenBrackets test implemented" />
+    <MESSAGE value="numberOfCloseBrackets test implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="numberOfCloseBrackets test implemented" />
   </component>
 </project>

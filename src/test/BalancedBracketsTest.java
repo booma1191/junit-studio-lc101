@@ -37,4 +37,9 @@ public class BalancedBracketsTest {
     public void numberOfCloseBrackets() {
         assert(BalancedBrackets.numberOfCloseBrackets("[[[[]]]]]]") == 6);
     }
+
+    @Test
+    public void balanceUnbalancedBrackets() {
+        assert(BalancedBrackets.balanceUnbalancedBrackets("[") == "[]");
+    }
 }

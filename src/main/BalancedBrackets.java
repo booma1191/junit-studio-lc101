@@ -62,4 +62,15 @@ public class BalancedBrackets {
         }
         return bracketCount;
     }
+
+    public static String fixUnbalancedBrackets(String str) {
+        int bracketCount = 0;
+        String balancedString = "";
+        for (char ch : str.toCharArray()) {
+            if (BalancedBrackets.hasBalancedBrackets(str)) {
+                balancedString = str;
+            } else if (things)
+        }
+        return balancedString;
+    }
 }
