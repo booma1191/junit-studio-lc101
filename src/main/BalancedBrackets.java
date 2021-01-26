@@ -42,4 +42,24 @@ public class BalancedBrackets {
         }
         return bracketCount;
     }
+
+    public static int numberOfOpenBrackets(String str) {
+        int bracketCount = 0;
+        for (char ch : str.toCharArray()) {
+            if (ch == '[') {
+                bracketCount++;
+            }
+        }
+        return bracketCount;
+    }
+
+    public static int numberOfCloseBrackets(String str) {
+        int bracketCount = 0;
+        for (char ch : str.toCharArray()) {
+            if (ch == ']') {
+                bracketCount++;
+            }
+        }
+        return bracketCount;
+    }
 }
